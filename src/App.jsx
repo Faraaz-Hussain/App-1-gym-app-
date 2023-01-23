@@ -3,7 +3,8 @@ import './App.css';
 function App() {
   return (
     <div>
-      <h1>hello</h1>
+      <div className='background-image'></div>
+      <h1 className='content'>hello</h1>
     </div>
   );
 }
