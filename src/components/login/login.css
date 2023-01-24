@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+    background-image: url("./login.jpg");
+    height: 100vh;
+    width: 100vw;
+    /* z-index: -1; */
+}
+
+.text-box{
+    height: 500px;
+    width: 300px;
+    background-color:#89c17c;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+   box-shadow: 40px -40px 18px black;
+    color: white;
+}
