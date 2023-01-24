@@ -3,6 +3,7 @@ import "./login.css";
 import InputAdornment from '@mui/material/InputAdornment';
 import TextField from '@mui/material/TextField';
 import AccountCircle from '@mui/icons-material/AccountCircle';
+import LockIcon from '@mui/icons-material/Lock';
 
 function Login() {
   return (
@@ -19,7 +20,7 @@ function Login() {
         <TextField InputProps={{
           startAdornment: (
             <InputAdornment position="start">
-              <AccountCircle />
+              <LockIcon />
             </InputAdornment>
           ),
         }} style={{marginLeft:"40px",marginTop:"30px"}} id="outlined-basic" label="password" variant="standard" type="password" />

@@ -24,8 +24,6 @@ function Navbar() {
                 <option value="option2">Emergency Care</option>
                 <option value="option3">Dental care</option>
                 <option value="option4">Cardio care</option>
-
-
               </select>
             </li>
             <li>
