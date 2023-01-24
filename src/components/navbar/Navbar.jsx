@@ -16,7 +16,7 @@ function Navbar() {
               <a href="#">Home</a>
             </li>
             <li>
-              <a href="#">Features</a>
+              <a href="#">Login</a>
             </li>
             <li>
               <select>
