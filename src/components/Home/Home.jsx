@@ -4,15 +4,16 @@ import "./Home.css";
 function Home() {
   return (
     <div>
+      <div className="home-img"></div>
       <main className="main1">
-      <marquee behavior="alternate" direction="left"><h1>Welcome to Our Hospital</h1></marquee>
-        <p>
+      <marquee className="heading" behavior="alternate" direction="left"><h1>Welcome to Ambani's Hospital</h1></marquee>
+        <p className="para">
           We are a leading healthcare provider in the area, offering a wide
           range of services for patients of all ages.
         </p>
       </main>
       
-      <div className="about">
+      {/* <div className="about">
 
         <h2> About Us</h2>
         <p>  Information about the hospital, its history, mission, and values.</p>
@@ -40,7 +41,7 @@ function Home() {
         <p> Contact information for the hospital, including address, phone
               number, and email.</p>
 
-      </div>
+      </div> */}
 
 
 

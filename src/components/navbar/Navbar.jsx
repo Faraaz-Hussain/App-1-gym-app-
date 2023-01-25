@@ -8,6 +8,7 @@ function Navbar() {
     <div>
       <header>
         <div class="brand">
+          <img src="https://www.freepnglogos.com/uploads/medical-logo-png-28.png" alt="logo" />
           <a href="#">AMBANI HOSPITAL</a>
         </div>
 
