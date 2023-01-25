@@ -28,7 +28,7 @@ function Navbar() {
               </select>
             </li>
             <li>
-              <a href="#">Our Works</a>
+              <Link to="work">Our Works</Link>
             </li>
           </ul>
         </nav>
