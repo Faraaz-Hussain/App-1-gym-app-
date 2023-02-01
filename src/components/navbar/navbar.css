@@ -5,6 +5,7 @@
 }
 
 header {
+    font-weight: bolder;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,10 +13,10 @@ header {
     background: linear-gradient(180deg, #6fb4fd 0%, #5caafc 100%);
 }
 
-.brand a {
+.brand a{
     text-decoration: none;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 1000;
     color:#360202d1;
 }
 
@@ -58,5 +59,10 @@ li > select {
     font-size: 1.1rem;
     font-weight: 500;
     border: none;
-    color: white;
+    color:black;
+}
+
+.brand img{
+    height: 25px;
+    width: 50px;
 }
