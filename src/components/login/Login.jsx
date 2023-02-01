@@ -9,6 +9,7 @@ import Button from '@mui/material/Button';
 import AppleIcon from '@mui/icons-material/Apple';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import GoogleIcon from '@mui/icons-material/Google';
+import { Link } from "react-router-dom";
 
 
 function Login() {
@@ -31,7 +32,7 @@ function Login() {
             </InputAdornment>
           ),
         }} style={{marginLeft:"40px",marginTop:"30px"}} id="outlined-basic" label="password" variant="standard" type="password" />
-        <a style={{lineHeight:"2",marginLeft:"35px",display:"inline",fontSize:"15px",textDecoration:"none"}} href="#">Create Account</a>
+        <Link style={{lineHeight:"2",marginLeft:"35px",display:"inline",fontSize:"15px",textDecoration:"none"}} to="register">Create Account</Link>
         <a style={{marginLeft:"35px",display:"inline",fontSize:"15px",textDecoration:"none"}} href="#">Forgot Password?</a>
         <Button style={{marginTop:"20px",marginLeft:"30px",height:"38px",width:"245px",borderRadius:"25px"}} variant="contained" color="success" >
         LOGIN
