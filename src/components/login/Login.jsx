@@ -38,9 +38,9 @@ function Login() {
         LOGIN
       </Button>
       <div>
-           <AppleIcon style={{height:"90px",width:"45px",marginLeft:"5px"}}/>
-           <FacebookIcon style={{height:"90px",width:"40px",marginLeft:"80px" }}/>
-           <GoogleIcon style={{height:"90px",width:"35px",marginLeft:"80px"}} />
+           <AppleIcon style={{height:"90px",width:"45px",marginLeft:"125px",color:"black"}}/>
+           <FacebookIcon style={{height:"82px",width:"40px",marginLeft:"10px",color:"black" }}/>
+           <GoogleIcon style={{height:"78px",width:"35px",marginLeft:"13px",color:"black"}} />
       </div>
       </div>
     </div>
