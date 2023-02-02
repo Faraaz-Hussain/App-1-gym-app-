@@ -1,9 +1,26 @@
 import "./navbar.css";
 
-import React from "react";
-import {Link} from "react-router-dom"
+import React, { useState } from "react";
+import { Link,useNavigate } from "react-router-dom"
 
 function Navbar() {
+  const navigate=useNavigate();
+
+  const [selectedOption, setSelectedOption] = useState("");
+  
+  const handleChange = (event) => {
+    setSelectedOption(event.target.value);
+  };
+
+  const select = (params) => {
+    navigate(params)
+  }
+  
+  if (selectedOption==="option5") {
+    select("form")
+    setSelectedOption("")
+  }
+
   return (
     <div>
       <header>
@@ -21,12 +38,13 @@ function Navbar() {
               <Link to="login">Login</Link>
             </li>
             <li>
-              <select>
+              <select onChange={handleChange}>
                 <option value="option1">Services</option>
                 <option value="option2">Emergency Care</option>
                 <option value="option3">Dental care</option>
                 <option value="option4">Cardio care</option>
-              </select>
+                <option value="option5">Online Oppointment</option>
+              </select> 
             </li>
             <li>
               <Link to="work">Our Works</Link>

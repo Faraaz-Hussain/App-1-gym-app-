@@ -5,6 +5,7 @@ import Navbar from './components/navbar/Navbar';
 import Register from './components/register/Register';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Work from './components/work/Work';
+import AppointmentForm from './components/oppointment/AppointmentForm ';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route exact path='login' element={<Login />} />
           <Route exact path='login/register' element={<Register />} />
           <Route exact path='work' element={<Work />} />
+          <Route exact path='form' element={<AppointmentForm />} />
         </Routes>
       </BrowserRouter>
     </div>
